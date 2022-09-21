@@ -1,0 +1,187 @@
+---
+title: "Exam 1 Review"
+author: "STS2720 (Dr. VanKrevelen)"
+date: 'In class on Wednesday 9/21/22'
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+I will use these two packages in this review.
+
+```{r, message = FALSE}
+library(ggplot2)
+library(dplyr)
+```
+
+---
+
+### We started with a general question about piping (%>%)
+
+My suggestion was to take it step by step and check what is happening at each stage. [This website](https://tidydatatutor.com/) can also be used to help visualize code that uses piping.
+
+Below is an example with the diamonds dataset numbered by which line of code its talking about. I will look at the full process first and then break down each step. 
+
+1. I am creating an object called diamond_means by starting with the diamonds data AND THEN 
+2. filtering the data to only include diamonds with color D AND THEN 
+3. creating a new variable called price_1000s that measures price in thousands of dollars AND THEN 
+4. grouping the data by quality of cut AND THEN 
+5. calculating the mean price (in thousands) for each cut.
+
+```{r}
+diamond_means <- diamonds %>%
+  filter(color == "D") %>%
+  mutate(price_1000s = price / 1000) %>%
+  group_by(cut) %>%
+  summarize(avg_price = mean(price_1000s))
+diamond_means
+```
+
+The diamonds dataset has around 53,940 observations and 10 variables. When I ran all the lines, I ended with 5 observations (the five cuts) and 2 variables (cut and avg_price).
+
+When I run lines 1 and 2, I am starting with my full data and restricting that data to only include colors of "D". This reduces the data to only the 6,775 observations with this color (and all 10 of my variables).
+
+```{r}
+diamond_means <- diamonds %>%
+  filter(color == "D")
+diamond_means
+```
+
+If I run lines 1 - 3, I am adding a new variable using the mutate() function, so now I have 11 variables.
+
+```{r}
+diamond_means <- diamonds %>%
+  filter(color == "D") %>%
+  mutate(price_1000s = price / 1000)
+diamond_means
+```
+
+The group_by() function doesn't change how my data looks, so I will still have 6,775 observations and 11 variables when I run lines 1 - 4. However, R knows that I want to group by cut, so anything I do after this will be done separately for each cut type.
+
+```{r}
+diamond_means <- diamonds %>%
+  filter(color == "D") %>%
+  mutate(price_1000s = price / 1000) %>%
+  group_by(cut)
+diamond_means
+```
+
+And lastly, when I run the whole code, I am calculating a `mean()` for each of the five cuts. I am left with just cut and the mean as my columns, and only five observations (one for each cut).
+
+---
+
+### What is `c()` and when do we use it?
+
+It is used to combine elements of a single type into an object. Below are examples combining four numeric elements, three character elements, and three logical elements. Once these are combined, I could use other functions on them (like `mean()` on the numeric object).
+
+```{r}
+c(1, 25, 6, 3)
+c("monday", "tuesday", "wednesday")
+c(TRUE, FALSE, TRUE)
+```
+
+
+---
+
+### What are the difference between bins and binwidth in `geom_histogram()`?
+
+By default, the `geom_histogram()` function gives us a histogram that splits our quantitative variable into 30 bins of equal size. However, we may want to change the number of bins (using `bins = `) or how wide each bin is (using `binwidth =`). We cannot use both in the same `geom_histogram()` function.
+
+```{r, out.width = "50%"}
+ggplot(diamonds) +
+  geom_histogram(aes(x = price), color = "white") +
+  labs(title = "Histogram without specifying bins")
+
+ggplot(diamonds) +
+  geom_histogram(aes(x = price), color = "white", bins = 5) +
+  labs(title = "Histogram specifying we want 5 bins")
+
+ggplot(diamonds) +
+  geom_histogram(aes(x = price), color = "white", binwidth = 1000) +
+  labs(title = "Histogram specify each bin should be $1000 wide")
+```
+
+There was a follow up question about the `boundary =` argument. This can be used to say where a bin should start. For example, I can't have negative prices, so I may want my bin to start at 0.
+
+```{r, out.width = "50%"}
+ggplot(diamonds) +
+  geom_histogram(aes(x = price), color = "white", binwidth = 1000, boundary = 0) +
+  labs(title = "Using boundary to start bins at 0")
+```
+
+
+---
+
+### When do color/fill go inside vs. outside `aes()`?
+
+We put an argument inside of `aes()` if we are mapping a variable in our data to an aesthetic element of the graph. Otherwise, we put the argument outside of `aes()`. Another way of thinking about this is if you are putting a variable name after your equals sign, you will put it inside of `aes()`. If you are putting a number or character element after the equals sign, you will put it outside of `aes()`.
+
+
+```{r, out.width = "50%"}
+ggplot(diamonds) +
+  geom_histogram(aes(x = price), color = "white", binwidth = 1000, boundary = 0) +
+  labs(title = "Color is white, so it goes outside aes()")
+
+ggplot(diamonds) +
+  geom_histogram(aes(x = price, fill = cut), color = "white", 
+                 binwidth = 1000, boundary = 0) +
+  labs(title = "Fill is mapped to the cut variable, so it goes inside aes()")
+```
+
+
+---
+
+### How does skew impact mean/median
+
+The diamond prices are skewed right (tail is on the right, most values are on left). This means that the mean will get pulled in the direction of the long tail. If you have outliers or data skewed in a direction, the mean will get pulled that direction. Large outliers (or skewed right) means mean > median. Small outliers (or skewed left) means mean < median.
+
+Notice how the mean is much larger than the median for diamond prices because they are skewed right.
+
+```{r}
+mean(diamonds$price)
+median(diamonds$price)
+```
+
+
+---
+
+### When do we use `geom_bar()` vs. `geom_col()`?
+
+We use `geom_bar()` when we have raw data. This means each row represents an observation. The diamonds data is one example as each row represents as single diamond. With `geom_bar()`, we assign a variable to x but not to y.
+
+```{r, out.width = "50%"}
+ggplot(diamonds) +
+  geom_bar(aes(x = cut))
+```
+
+If we have summarized data, each row will represent multiple observations (with a column in the data telling us how many observations). Below, I create a summarized version of the diamonds data. To create a bar graph of this data, I need to use `geom_col()` and assign my variable telling me how many diamonds are represented in each row to the y aesthetic.
+
+```{r, out.width = "50%"}
+diamonds_summarized <- diamonds %>%
+  group_by(cut) %>%
+  summarize(count = n())
+
+diamonds_summarized
+
+ggplot(diamonds_summarized) +
+  geom_col(aes(x = cut, y = count))
+```
+
+---
+
+### How do we handle units when interpreting slopes?
+
+For a simple linear regression, the estimated slope can be interpreted as:
+
+> The predicted increase/decrease in your response variable for every one *unit* change in the explanatory variable.
+
+Below I am predicting the price of a diamond using the weight (measured in carats)
+
+```{r}
+lm(price ~ carat, data = diamonds)
+```
+
+My equation is $\hat{price} = -2256 + 7756 * carat$
+
+The slope is 7756. I would interpret this by saying **the predicted price of a diamond increases by $7756 for every one carat increase in the diamond's weight**
