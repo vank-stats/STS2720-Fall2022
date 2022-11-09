@@ -20,9 +20,9 @@ ggplot(cereal) +
 
 # ANOVA Hypothesis Test
 
-# Step 1: Hypotheses (in notes)
+# Step 1 (in notes)
 
-# Step 2: Summarize data
+# Step 2
 
 cereal_obsF <- cereal %>%
   specify(sales ~ design) %>%
@@ -30,7 +30,7 @@ cereal_obsF <- cereal %>%
 cereal_obsF
 
 
-# Step 3: Generate a null distribution and find a p-value
+# Step 3: Generate a null distribution
 
 set.seed(4520)
 cereal_null <- cereal %>%
@@ -47,24 +47,35 @@ visualize(cereal_null, method = "both", bins = 30) +
   shade_p_value(obs_stat = cereal_obsF, direction = "right")
 
 
-# Step 4: Conclusion (in notes)
+# Step 4 (in notes)
 
 
 
 # Bonus: Simultaneous confidence intervals
 
-# To compare all four package designs to every other design, we need to make 
-#   6 intervals.
+# To compare all four package designs to every other design,
+#   we need to make 6 intervals.
 
-# Let's say we want to be 95% confident that ALL six intervals contain the true 
-#   parameter. We can take our significance level (0.05) divided by the number
-#   of intervals (6) to get a new significance level of 0.0083.
+# Let's say we want to be 95% confident that ALL six intervals
+#   contain the true parameter
 
 alpha_star <- 0.05 / 6
 alpha_star
 
-# If I make six 99.167% confidence intervals, I can still be 95% confident that 
-#   ALL six intervals contain the true parameter.
-
 (1 - alpha_star)^6
 
+# If I make six 99.167% confidence intervals, I can still be
+#   95% confident that ALL six intervals contain the true
+#   parameter.
+
+# The DescTools package can calculate these six intervals for us.
+
+library(DescTools)
+cereal_anova <- aov(sales ~ design, data = cereal)
+summary(cereal_anova)
+PostHocTest(cereal_anova, conf.level = 0.95, method = "bonferroni")
+
+# We are 95% confident the population mean cases sold is higher for design
+#   D than for designs A and B. We are not 95% confident in any other
+#   comparisons between designs. This suggests we think design D or C is
+#   is the best, but we aren't 95% confident which one is.
