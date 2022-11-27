@@ -1,0 +1,73 @@
+---
+title: "Project 2 Tips"
+output:
+  pdf_document: default
+  html_document: default
+date: "2022-11-27"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This document contains a couple examples of things you may want to do while working with your data for project 2 such as recoding variables, removing variables from your data, etc. I will add more to the document as we encounter new issues.
+
+
+## Read in packages and data
+
+For this example, I'll read in the NC Residents data (option 1), but you could try any of the ideas that follow with any data set. I'm going to filter my data to only include people between the ages of 18 and 25 to make it more manageable to work with.
+
+```{r data, warning = FALSE, message = FALSE}
+library(ipumsr)
+library(dplyr)
+
+proj2 <- read_ipums_micro("usa_0011.xml") %>%
+  filter(AGE > 17, AGE < 26)
+
+nrow(proj2)
+```
+
+Now I have just over 1,000 observations (checked using the `nrow()` function), which will be easier to work with.
+
+
+
+## Choose only certain columns with `select()`
+
+Suppose I know that I only plan to use the `UHRSWORK` and `SCHLTYPE` variables and want to remove everything else. I can do this with the `select()` function.
+
+```{r}
+proj2 <- select(proj2, UHRSWORK, SCHLTYPE)
+```
+
+Now my dataset contains only two variables.
+
+```{r}
+head(proj2, n = 2)
+```
+
+The part that reads `<int+lbl>` is telling me the variables are stored as integers (whole numbers) but that R has a label attached to those numbers.
+
+
+
+## Create new variable categories with `case_when()`
+
+The `case_when()` function can be used along with `mutate()` to create new variables by telling R how to handle different situations.
+
+Suppose I want to convert UHRSWORK to three categories, "none", "part_time", "full_time". I will do this by saying what conditions for `UHRSWORK` correspond with categories of my new variable.
+
+```{r case_when}
+proj2 <- proj2 %>%
+  mutate(WORKSTATUS = case_when(UHRSWORK == 0 ~ "none",
+                             UHRSWORK < 0 & UHRSWORK < 30 ~ "part_time",
+                             UHRSWORK >= 30 ~ "full-time"))
+```
+
+I should verify that my new variable works how I want it to work. For this example, I'll use `group_by()` and `summarize()` to check that the range of values is correct in each category. In other cases, the `table()` function may also work well.
+
+```{r}
+proj2 %>%
+  group_by(WORKSTATUS) %>%
+  summarize(min(UHRSWORK), max(UHRSWORK))
+```
+
+Notice that my categories of my new variable have the correct values (0 for "none", 1 - 29 for "part_time", and 30+ for "full_time").
