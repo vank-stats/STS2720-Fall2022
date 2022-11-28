@@ -58,7 +58,7 @@ Suppose I want to convert UHRSWORK to three categories, "none", "part_time", "fu
 ```{r case_when}
 proj2 <- proj2 %>%
   mutate(WORKSTATUS = case_when(UHRSWORK == 0 ~ "none",
-                             UHRSWORK < 0 & UHRSWORK < 30 ~ "part_time",
+                             UHRSWORK > 0 & UHRSWORK < 30 ~ "part_time",
                              UHRSWORK >= 30 ~ "full-time"))
 ```
 
