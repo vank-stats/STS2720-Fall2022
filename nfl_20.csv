@@ -1,0 +1,257 @@
+"Season","Week","Date","Day","Visitor","Home","PTS_A","PTS_H","PTS_Margin","HomeWon","YDS_A","YDS_H","YDS_Margin","TO_A","TO_H","TO_Margin","Attendance","Fans","Time"
+2020,1,2020-09-10,"Thu","Houston Texans","Kansas City Chiefs",20,34,14,TRUE,360,369,9,1,0,-1,15895,TRUE,20:20:00
+2020,1,2020-09-13,"Sun","Seattle Seahawks","Atlanta Falcons",38,25,-13,FALSE,383,506,123,0,2,2,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","New York Jets","Buffalo Bills",17,27,10,TRUE,254,404,150,2,2,0,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Las Vegas Raiders","Carolina Panthers",34,30,-4,FALSE,372,388,16,0,0,0,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Chicago Bears","Detroit Lions",27,23,-4,FALSE,363,426,63,0,1,1,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Cleveland Browns","Baltimore Ravens",6,38,32,TRUE,306,381,75,3,1,-2,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Indianapolis Colts","Jacksonville Jaguars",20,27,7,TRUE,445,241,-204,2,0,-2,14100,TRUE,13:00:00
+2020,1,2020-09-13,"Sun","Green Bay Packers","Minnesota Vikings",43,34,-9,FALSE,522,382,-140,0,1,1,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Miami Dolphins","New England Patriots",11,21,10,TRUE,269,357,88,3,1,-2,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Philadelphia Eagles","Washington Football Team",17,27,10,TRUE,265,239,-26,3,0,-3,0,FALSE,13:00:00
+2020,1,2020-09-13,"Sun","Los Angeles Chargers","Cincinnati Bengals",16,13,-3,FALSE,362,295,-67,0,2,2,0,FALSE,16:05:00
+2020,1,2020-09-13,"Sun","Arizona Cardinals","San Francisco 49ers",24,20,-4,FALSE,404,366,-38,1,0,-1,0,FALSE,16:25:00
+2020,1,2020-09-13,"Sun","Tampa Bay Buccaneers","New Orleans Saints",23,34,11,TRUE,310,271,-39,3,0,-3,0,FALSE,16:25:00
+2020,1,2020-09-13,"Sun","Dallas Cowboys","Los Angeles Rams",17,20,3,TRUE,380,422,42,0,1,1,0,FALSE,20:20:00
+2020,1,2020-09-14,"Mon","Pittsburgh Steelers","New York Giants",26,16,-10,FALSE,349,291,-58,1,2,1,0,FALSE,19:15:00
+2020,1,2020-09-14,"Mon","Tennessee Titans","Denver Broncos",16,14,-2,FALSE,377,323,-54,0,1,1,0,FALSE,22:10:00
+2020,2,2020-09-17,"Thu","Cincinnati Bengals","Cleveland Browns",30,35,5,TRUE,353,434,81,1,1,0,6000,TRUE,20:20:00
+2020,2,2020-09-20,"Sun","Atlanta Falcons","Dallas Cowboys",39,40,1,TRUE,380,570,190,0,3,3,21708,TRUE,13:00:00
+2020,2,2020-09-20,"Sun","Buffalo Bills","Miami Dolphins",31,28,-3,FALSE,523,410,-113,1,0,-1,11075,TRUE,13:00:00
+2020,2,2020-09-20,"Sun","Carolina Panthers","Tampa Bay Buccaneers",17,31,14,TRUE,427,339,-88,4,2,-2,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","New York Giants","Chicago Bears",13,17,4,TRUE,295,304,9,2,2,0,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","Minnesota Vikings","Indianapolis Colts",11,28,17,TRUE,175,354,179,3,1,-2,2500,TRUE,13:00:00
+2020,2,2020-09-20,"Sun","Denver Broncos","Pittsburgh Steelers",21,26,5,TRUE,319,410,91,2,2,0,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","Detroit Lions","Green Bay Packers",21,42,21,TRUE,307,488,181,1,0,-1,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","Jacksonville Jaguars","Tennessee Titans",30,33,3,TRUE,480,354,-126,2,0,-2,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","San Francisco 49ers","New York Jets",31,13,-18,FALSE,359,277,-82,1,0,-1,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","Los Angeles Rams","Philadelphia Eagles",37,19,-18,FALSE,449,363,-86,1,3,2,0,FALSE,13:00:00
+2020,2,2020-09-20,"Sun","Washington Football Team","Arizona Cardinals",15,30,15,TRUE,316,438,122,2,1,-1,0,FALSE,16:05:00
+2020,2,2020-09-20,"Sun","Baltimore Ravens","Houston Texans",33,16,-17,FALSE,407,304,-103,0,2,2,0,FALSE,16:25:00
+2020,2,2020-09-20,"Sun","Kansas City Chiefs","Los Angeles Chargers",23,20,-3,FALSE,414,479,65,0,1,1,0,FALSE,16:25:00
+2020,2,2020-09-20,"Sun","New England Patriots","Seattle Seahawks",30,35,5,TRUE,464,429,-35,1,1,0,0,FALSE,20:20:00
+2020,2,2020-09-21,"Mon","New Orleans Saints","Las Vegas Raiders",24,34,10,TRUE,424,377,-47,1,1,0,0,FALSE,20:15:00
+2020,3,2020-09-24,"Thu","Miami Dolphins","Jacksonville Jaguars",31,13,-18,FALSE,294,318,24,0,2,2,16563,TRUE,20:20:00
+2020,3,2020-09-27,"Sun","Chicago Bears","Atlanta Falcons",30,26,-4,FALSE,437,371,-66,2,1,-1,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Los Angeles Rams","Buffalo Bills",32,35,3,TRUE,478,375,-103,2,2,0,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Cincinnati Bengals","Philadelphia Eagles",23,23,0,FALSE,304,378,74,0,2,2,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Washington Football Team","Cleveland Browns",20,34,14,TRUE,309,300,-9,5,0,-5,6000,TRUE,13:00:00
+2020,3,2020-09-27,"Sun","Houston Texans","Pittsburgh Steelers",21,28,7,TRUE,260,387,127,1,0,-1,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Tennessee Titans","Minnesota Vikings",31,30,-1,FALSE,444,464,20,1,3,2,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Las Vegas Raiders","New England Patriots",20,36,16,TRUE,375,406,31,3,1,-2,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","San Francisco 49ers","New York Giants",36,9,-27,FALSE,420,231,-189,0,3,3,0,FALSE,13:00:00
+2020,3,2020-09-27,"Sun","Carolina Panthers","Los Angeles Chargers",21,16,-5,FALSE,302,436,134,0,4,4,0,FALSE,16:05:00
+2020,3,2020-09-27,"Sun","New York Jets","Indianapolis Colts",7,36,29,TRUE,260,353,93,3,0,-3,7480,TRUE,16:05:00
+2020,3,2020-09-27,"Sun","Detroit Lions","Arizona Cardinals",26,23,-3,FALSE,322,377,55,0,3,3,0,FALSE,16:25:00
+2020,3,2020-09-27,"Sun","Dallas Cowboys","Seattle Seahawks",31,38,7,TRUE,522,412,-110,3,1,-2,0,FALSE,16:25:00
+2020,3,2020-09-27,"Sun","Tampa Bay Buccaneers","Denver Broncos",28,10,-18,FALSE,353,226,-127,0,2,2,5226,TRUE,16:25:00
+2020,3,2020-09-27,"Sun","Green Bay Packers","New Orleans Saints",37,30,-7,FALSE,369,397,28,0,1,1,748,TRUE,20:20:00
+2020,3,2020-09-28,"Mon","Kansas City Chiefs","Baltimore Ravens",34,20,-14,FALSE,517,228,-289,1,1,0,0,FALSE,20:15:00
+2020,4,2020-10-01,"Thu","Denver Broncos","New York Jets",37,28,-9,FALSE,359,321,-38,3,0,-3,0,FALSE,20:20:00
+2020,4,2020-10-04,"Sun","Arizona Cardinals","Carolina Panthers",21,31,10,TRUE,262,444,182,1,1,0,5120,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","Indianapolis Colts","Chicago Bears",19,11,-8,FALSE,289,269,-20,0,1,1,0,FALSE,13:00:00
+2020,4,2020-10-04,"Sun","Jacksonville Jaguars","Cincinnati Bengals",25,33,8,TRUE,429,505,76,1,1,0,6243,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","Cleveland Browns","Dallas Cowboys",49,38,-11,FALSE,508,566,58,0,3,3,25021,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","New Orleans Saints","Detroit Lions",35,29,-6,FALSE,392,281,-111,1,1,0,0,FALSE,13:00:00
+2020,4,2020-10-04,"Sun","Minnesota Vikings","Houston Texans",31,23,-8,FALSE,410,386,-24,0,1,1,12102,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","Seattle Seahawks","Miami Dolphins",31,23,-8,FALSE,441,415,-26,1,2,1,12369,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","Baltimore Ravens","Washington Football Team",31,17,-14,FALSE,350,343,-7,2,1,-1,0,FALSE,13:00:00
+2020,4,2020-10-04,"Sun","Los Angeles Chargers","Tampa Bay Buccaneers",31,38,7,TRUE,324,484,160,2,1,-1,6383,TRUE,13:00:00
+2020,4,2020-10-04,"Sun","New York Giants","Los Angeles Rams",9,17,8,TRUE,295,240,-55,1,1,0,0,FALSE,16:05:00
+2020,4,2020-10-04,"Sun","Buffalo Bills","Las Vegas Raiders",30,23,-7,FALSE,337,383,46,0,2,2,0,FALSE,16:25:00
+2020,4,2020-10-04,"Sun","Philadelphia Eagles","San Francisco 49ers",25,20,-5,FALSE,267,417,150,1,3,2,0,FALSE,20:20:00
+2020,4,2020-10-05,"Mon","New England Patriots","Kansas City Chiefs",10,26,16,TRUE,357,323,-34,4,1,-3,12729,TRUE,19:05:00
+2020,4,2020-10-05,"Mon","Atlanta Falcons","Green Bay Packers",16,30,14,TRUE,327,403,76,0,0,0,0,FALSE,20:15:00
+2020,5,2020-10-08,"Thu","Tampa Bay Buccaneers","Chicago Bears",19,20,1,TRUE,339,243,-96,1,1,0,0,FALSE,20:20:00
+2020,5,2020-10-11,"Sun","Carolina Panthers","Atlanta Falcons",23,16,-7,FALSE,437,373,-64,0,1,1,6656,TRUE,13:00:00
+2020,5,2020-10-11,"Sun","Cincinnati Bengals","Baltimore Ravens",3,27,24,TRUE,205,332,127,3,1,-2,0,FALSE,13:00:00
+2020,5,2020-10-11,"Sun","Arizona Cardinals","New York Jets",30,10,-20,FALSE,496,285,-211,1,0,-1,0,FALSE,13:00:00
+2020,5,2020-10-11,"Sun","Jacksonville Jaguars","Houston Texans",14,30,16,TRUE,364,486,122,2,2,0,12413,TRUE,13:00:00
+2020,5,2020-10-11,"Sun","Las Vegas Raiders","Kansas City Chiefs",40,32,-8,FALSE,490,413,-77,1,1,0,13311,TRUE,13:00:00
+2020,5,2020-10-11,"Sun","Philadelphia Eagles","Pittsburgh Steelers",29,38,9,TRUE,336,367,31,2,1,-1,4708,TRUE,13:00:00
+2020,5,2020-10-11,"Sun","Los Angeles Rams","Washington Football Team",30,10,-20,FALSE,429,108,-321,1,0,-1,0,FALSE,13:00:00
+2020,5,2020-10-11,"Sun","Miami Dolphins","San Francisco 49ers",43,17,-26,FALSE,436,259,-177,0,3,3,0,FALSE,16:05:00
+2020,5,2020-10-11,"Sun","Indianapolis Colts","Cleveland Browns",23,32,9,TRUE,308,385,77,2,2,0,11759,TRUE,16:25:00
+2020,5,2020-10-11,"Sun","New York Giants","Dallas Cowboys",34,37,3,TRUE,300,402,102,1,2,1,25147,TRUE,16:25:00
+2020,5,2020-10-11,"Sun","Minnesota Vikings","Seattle Seahawks",26,27,1,TRUE,449,314,-135,2,1,-1,0,FALSE,20:20:00
+2020,5,2020-10-12,"Mon","Los Angeles Chargers","New Orleans Saints",27,30,3,TRUE,350,408,58,0,1,1,749,TRUE,20:15:00
+2020,5,2020-10-13,"Tue","Buffalo Bills","Tennessee Titans",16,42,26,TRUE,370,334,-36,3,0,-3,8403,TRUE,19:00:00
+2020,6,2020-10-18,"Sun","Denver Broncos","New England Patriots",18,12,-6,FALSE,299,288,-11,2,3,1,0,FALSE,13:00:00
+2020,6,2020-10-18,"Sun","Detroit Lions","Jacksonville Jaguars",34,16,-18,FALSE,403,275,-128,1,2,1,14513,TRUE,13:00:00
+2020,6,2020-10-18,"Sun","Atlanta Falcons","Minnesota Vikings",40,23,-17,FALSE,462,365,-97,1,3,2,0,FALSE,13:00:00
+2020,6,2020-10-18,"Sun","Chicago Bears","Carolina Panthers",23,16,-7,FALSE,261,303,42,1,3,2,5240,TRUE,13:00:00
+2020,6,2020-10-18,"Sun","Cincinnati Bengals","Indianapolis Colts",27,31,4,TRUE,398,430,32,1,2,1,12453,TRUE,13:00:00
+2020,6,2020-10-18,"Sun","Cleveland Browns","Pittsburgh Steelers",7,38,31,TRUE,220,277,57,2,0,-2,5260,TRUE,13:00:00
+2020,6,2020-10-18,"Sun","Houston Texans","Tennessee Titans",36,42,6,TRUE,412,607,195,0,2,2,10166,TRUE,13:00:00
+2020,6,2020-10-18,"Sun","Washington Football Team","New York Giants",19,20,1,TRUE,337,240,-97,2,1,-1,0,FALSE,13:00:00
+2020,6,2020-10-18,"Sun","Baltimore Ravens","Philadelphia Eagles",30,28,-2,FALSE,355,364,9,0,1,1,0,FALSE,13:00:00
+2020,6,2020-10-18,"Sun","New York Jets","Miami Dolphins",0,24,24,TRUE,263,302,39,1,2,1,10772,TRUE,16:05:00
+2020,6,2020-10-18,"Sun","Green Bay Packers","Tampa Bay Buccaneers",10,38,28,TRUE,201,324,123,2,0,-2,15540,TRUE,16:25:00
+2020,6,2020-10-18,"Sun","Los Angeles Rams","San Francisco 49ers",16,24,8,TRUE,311,390,79,1,0,-1,0,FALSE,20:20:00
+2020,6,2020-10-19,"Mon","Kansas City Chiefs","Buffalo Bills",26,17,-9,FALSE,466,206,-260,1,1,0,0,FALSE,17:00:00
+2020,6,2020-10-19,"Mon","Arizona Cardinals","Dallas Cowboys",38,10,-28,FALSE,438,344,-94,0,4,4,25174,TRUE,20:15:00
+2020,7,2020-10-22,"Thu","New York Giants","Philadelphia Eagles",21,22,1,TRUE,325,442,117,3,1,-2,0,FALSE,20:20:00
+2020,7,2020-10-25,"Sun","Green Bay Packers","Houston Texans",35,20,-15,FALSE,379,365,-14,0,1,1,12618,TRUE,13:00:00
+2020,7,2020-10-25,"Sun","Pittsburgh Steelers","Tennessee Titans",27,24,-3,FALSE,362,292,-70,3,0,-3,10355,TRUE,13:00:00
+2020,7,2020-10-25,"Sun","Detroit Lions","Atlanta Falcons",23,22,-1,FALSE,386,388,2,0,1,1,7796,TRUE,13:00:00
+2020,7,2020-10-25,"Sun","Buffalo Bills","New York Jets",18,10,-8,FALSE,422,191,-231,1,2,1,0,FALSE,13:00:00
+2020,7,2020-10-25,"Sun","Carolina Panthers","New Orleans Saints",24,27,3,TRUE,283,415,132,0,1,1,3000,TRUE,13:00:00
+2020,7,2020-10-25,"Sun","Cleveland Browns","Cincinnati Bengals",37,34,-3,FALSE,398,468,70,1,2,1,9732,TRUE,13:00:00
+2020,7,2020-10-25,"Sun","Dallas Cowboys","Washington Football Team",3,25,22,TRUE,142,397,255,1,0,-1,0,FALSE,13:00:00
+2020,7,2020-10-25,"Sun","Tampa Bay Buccaneers","Las Vegas Raiders",45,20,-25,FALSE,454,347,-107,0,1,1,0,FALSE,16:05:00
+2020,7,2020-10-25,"Sun","Kansas City Chiefs","Denver Broncos",43,16,-27,FALSE,286,411,125,1,4,3,5314,TRUE,16:25:00
+2020,7,2020-10-25,"Sun","San Francisco 49ers","New England Patriots",33,6,-27,FALSE,467,241,-226,2,4,2,0,FALSE,16:25:00
+2020,7,2020-10-25,"Sun","Jacksonville Jaguars","Los Angeles Chargers",29,39,10,TRUE,294,484,190,1,0,-1,0,FALSE,16:25:00
+2020,7,2020-10-25,"Sun","Seattle Seahawks","Arizona Cardinals",34,37,3,TRUE,572,519,-53,3,2,-1,1200,TRUE,20:20:00
+2020,7,2020-10-26,"Mon","Chicago Bears","Los Angeles Rams",10,24,14,TRUE,279,371,92,2,1,-1,0,FALSE,20:15:00
+2020,8,2020-10-29,"Thu","Atlanta Falcons","Carolina Panthers",25,17,-8,FALSE,401,304,-97,1,1,0,5240,TRUE,20:20:00
+2020,8,2020-11-01,"Sun","Indianapolis Colts","Detroit Lions",41,21,-20,FALSE,366,326,-40,0,2,2,0,FALSE,13:00:00
+2020,8,2020-11-01,"Sun","Minnesota Vikings","Green Bay Packers",28,22,-6,FALSE,324,400,76,0,1,1,0,FALSE,13:00:00
+2020,8,2020-11-01,"Sun","Los Angeles Rams","Miami Dolphins",17,28,11,TRUE,471,145,-326,4,2,-2,12397,TRUE,13:00:00
+2020,8,2020-11-01,"Sun","Pittsburgh Steelers","Baltimore Ravens",28,24,-4,FALSE,221,457,236,1,4,3,4345,TRUE,13:00:00
+2020,8,2020-11-01,"Sun","New England Patriots","Buffalo Bills",21,24,3,TRUE,349,339,-10,1,1,0,0,FALSE,13:00:00
+2020,8,2020-11-01,"Sun","Tennessee Titans","Cincinnati Bengals",20,31,11,TRUE,441,367,-74,1,0,-1,9712,TRUE,13:00:00
+2020,8,2020-11-01,"Sun","Las Vegas Raiders","Cleveland Browns",16,6,-10,FALSE,309,223,-86,0,1,1,10972,TRUE,13:00:00
+2020,8,2020-11-01,"Sun","New York Jets","Kansas City Chiefs",9,35,26,TRUE,221,496,275,1,0,-1,11932,TRUE,13:00:00
+2020,8,2020-11-01,"Sun","Los Angeles Chargers","Denver Broncos",30,31,1,TRUE,485,351,-134,2,1,-1,5231,TRUE,16:05:00
+2020,8,2020-11-01,"Sun","San Francisco 49ers","Seattle Seahawks",27,37,10,TRUE,351,350,-1,2,0,-2,0,FALSE,16:25:00
+2020,8,2020-11-01,"Sun","New Orleans Saints","Chicago Bears",26,23,-3,FALSE,394,329,-65,0,1,1,0,FALSE,16:25:00
+2020,8,2020-11-01,"Sun","Dallas Cowboys","Philadelphia Eagles",9,23,14,TRUE,265,222,-43,2,4,2,0,FALSE,20:20:00
+2020,8,2020-11-02,"Mon","Tampa Bay Buccaneers","New York Giants",25,23,-2,FALSE,344,357,13,1,2,1,0,FALSE,20:15:00
+2020,9,2020-11-05,"Thu","Green Bay Packers","San Francisco 49ers",34,17,-17,FALSE,405,337,-68,0,2,2,0,FALSE,20:20:00
+2020,9,2020-11-08,"Sun","Baltimore Ravens","Indianapolis Colts",24,10,-14,FALSE,266,339,73,1,2,1,12200,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","Detroit Lions","Minnesota Vikings",20,34,14,TRUE,421,487,66,3,0,-3,0,FALSE,13:00:00
+2020,9,2020-11-08,"Sun","Houston Texans","Jacksonville Jaguars",27,25,-2,FALSE,374,403,29,1,1,0,15668,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","Denver Broncos","Atlanta Falcons",27,34,7,TRUE,405,363,-42,1,1,0,7665,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","Seattle Seahawks","Buffalo Bills",34,44,10,TRUE,419,420,1,4,0,-4,0,FALSE,13:00:00
+2020,9,2020-11-08,"Sun","Carolina Panthers","Kansas City Chiefs",31,33,2,TRUE,435,397,-38,0,1,1,12073,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","Chicago Bears","Tennessee Titans",17,24,7,TRUE,375,228,-147,2,0,-2,13871,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","New York Giants","Washington Football Team",23,20,-3,FALSE,350,402,52,0,5,5,3000,TRUE,13:00:00
+2020,9,2020-11-08,"Sun","Las Vegas Raiders","Los Angeles Chargers",31,26,-5,FALSE,320,440,120,1,1,0,0,FALSE,16:05:00
+2020,9,2020-11-08,"Sun","Miami Dolphins","Arizona Cardinals",34,31,-3,FALSE,312,442,130,0,1,1,4200,TRUE,16:25:00
+2020,9,2020-11-08,"Sun","Pittsburgh Steelers","Dallas Cowboys",24,19,-5,FALSE,355,364,9,0,2,2,31700,TRUE,16:25:00
+2020,9,2020-11-08,"Sun","New Orleans Saints","Tampa Bay Buccaneers",38,3,-35,FALSE,420,194,-226,2,3,1,15740,TRUE,20:20:00
+2020,9,2020-11-09,"Mon","New England Patriots","New York Jets",30,27,-3,FALSE,433,322,-111,0,1,1,0,FALSE,20:15:00
+2020,10,2020-11-12,"Thu","Indianapolis Colts","Tennessee Titans",34,17,-17,FALSE,430,294,-136,0,0,0,13949,TRUE,20:20:00
+2020,10,2020-11-15,"Sun","Houston Texans","Cleveland Browns",7,10,3,TRUE,243,356,113,0,0,0,10613,TRUE,13:00:00
+2020,10,2020-11-15,"Sun","Washington Football Team","Detroit Lions",27,30,3,TRUE,464,372,-92,1,0,-1,0,FALSE,13:00:00
+2020,10,2020-11-15,"Sun","Jacksonville Jaguars","Green Bay Packers",20,24,4,TRUE,260,395,135,1,2,1,0,FALSE,13:00:00
+2020,10,2020-11-15,"Sun","Tampa Bay Buccaneers","Carolina Panthers",46,23,-23,FALSE,544,187,-357,1,1,0,5815,TRUE,13:00:00
+2020,10,2020-11-15,"Sun","Philadelphia Eagles","New York Giants",17,27,10,TRUE,346,382,36,0,0,0,0,FALSE,13:00:00
+2020,10,2020-11-15,"Sun","Denver Broncos","Las Vegas Raiders",12,37,25,TRUE,313,357,44,5,0,-5,0,FALSE,16:05:00
+2020,10,2020-11-15,"Sun","Los Angeles Chargers","Miami Dolphins",21,29,8,TRUE,273,280,7,1,1,0,12751,TRUE,16:05:00
+2020,10,2020-11-15,"Sun","Buffalo Bills","Arizona Cardinals",30,32,2,TRUE,369,453,84,2,2,0,4200,TRUE,16:05:00
+2020,10,2020-11-15,"Sun","Cincinnati Bengals","Pittsburgh Steelers",10,36,26,TRUE,324,377,53,2,0,-2,5909,TRUE,16:25:00
+2020,10,2020-11-15,"Sun","San Francisco 49ers","New Orleans Saints",13,27,14,TRUE,281,237,-44,4,2,-2,5979,TRUE,16:25:00
+2020,10,2020-11-15,"Sun","Seattle Seahawks","Los Angeles Rams",16,23,7,TRUE,333,389,56,3,1,-2,0,FALSE,16:25:00
+2020,10,2020-11-15,"Sun","Baltimore Ravens","New England Patriots",17,23,6,TRUE,357,308,-49,1,0,-1,0,FALSE,20:20:00
+2020,10,2020-11-16,"Mon","Minnesota Vikings","Chicago Bears",19,13,-6,FALSE,385,149,-236,2,2,0,0,FALSE,20:15:00
+2020,11,2020-11-19,"Thu","Arizona Cardinals","Seattle Seahawks",21,28,7,TRUE,314,347,33,0,0,0,0,FALSE,20:20:00
+2020,11,2020-11-22,"Sun","Atlanta Falcons","New Orleans Saints",9,24,15,TRUE,248,376,128,2,1,-1,6000,TRUE,13:00:00
+2020,11,2020-11-22,"Sun","Cincinnati Bengals","Washington Football Team",9,20,11,TRUE,272,325,53,2,1,-1,0,FALSE,13:00:00
+2020,11,2020-11-22,"Sun","Philadelphia Eagles","Cleveland Browns",17,22,5,TRUE,315,324,9,3,1,-2,11133,TRUE,13:00:00
+2020,11,2020-11-22,"Sun","New England Patriots","Houston Texans",20,27,7,TRUE,435,399,-36,0,0,0,12503,TRUE,13:00:00
+2020,11,2020-11-22,"Sun","Pittsburgh Steelers","Jacksonville Jaguars",27,3,-24,FALSE,373,206,-167,1,4,3,17244,TRUE,13:00:00
+2020,11,2020-11-22,"Sun","Tennessee Titans","Baltimore Ravens",30,24,-6,FALSE,423,306,-117,1,1,0,0,FALSE,13:00:00
+2020,11,2020-11-22,"Sun","Detroit Lions","Carolina Panthers",0,20,20,TRUE,185,374,189,1,2,1,5546,TRUE,13:00:00
+2020,11,2020-11-22,"Sun","Miami Dolphins","Denver Broncos",13,20,7,TRUE,223,459,236,1,2,1,5351,TRUE,16:05:00
+2020,11,2020-11-22,"Sun","New York Jets","Los Angeles Chargers",28,34,6,TRUE,292,376,84,1,1,0,0,FALSE,16:05:00
+2020,11,2020-11-22,"Sun","Green Bay Packers","Indianapolis Colts",31,34,3,TRUE,367,420,53,4,2,-2,12495,TRUE,16:25:00
+2020,11,2020-11-22,"Sun","Dallas Cowboys","Minnesota Vikings",31,28,-3,FALSE,376,430,54,1,2,1,0,FALSE,16:25:00
+2020,11,2020-11-22,"Sun","Kansas City Chiefs","Las Vegas Raiders",35,31,-4,FALSE,460,364,-96,1,1,0,0,FALSE,20:20:00
+2020,11,2020-11-23,"Mon","Los Angeles Rams","Tampa Bay Buccaneers",27,24,-3,FALSE,413,251,-162,2,2,0,15730,TRUE,20:15:00
+2020,12,2020-11-26,"Thu","Houston Texans","Detroit Lions",41,25,-16,FALSE,384,388,4,1,3,2,0,FALSE,12:30:00
+2020,12,2020-11-26,"Thu","Washington Football Team","Dallas Cowboys",41,16,-25,FALSE,338,247,-91,1,2,1,30048,TRUE,16:30:00
+2020,12,2020-11-29,"Sun","Las Vegas Raiders","Atlanta Falcons",6,43,37,TRUE,243,304,61,5,1,-4,9124,TRUE,13:00:00
+2020,12,2020-11-29,"Sun","Los Angeles Chargers","Buffalo Bills",17,27,10,TRUE,367,332,-35,1,3,2,0,FALSE,13:00:00
+2020,12,2020-11-29,"Sun","New York Giants","Cincinnati Bengals",19,17,-2,FALSE,386,155,-231,1,3,2,10208,TRUE,13:00:00
+2020,12,2020-11-29,"Sun","Cleveland Browns","Jacksonville Jaguars",27,25,-2,FALSE,459,375,-84,1,0,-1,15926,TRUE,13:00:00
+2020,12,2020-11-29,"Sun","Tennessee Titans","Indianapolis Colts",45,26,-19,FALSE,449,336,-113,0,1,1,12464,TRUE,13:00:00
+2020,12,2020-11-29,"Sun","Arizona Cardinals","New England Patriots",17,20,3,TRUE,298,179,-119,1,2,1,0,FALSE,13:00:00
+2020,12,2020-11-29,"Sun","Miami Dolphins","New York Jets",20,3,-17,FALSE,345,260,-85,2,2,0,0,FALSE,13:00:00
+2020,12,2020-11-29,"Sun","Carolina Panthers","Minnesota Vikings",27,28,1,TRUE,374,387,13,1,3,2,0,FALSE,13:00:00
+2020,12,2020-11-29,"Sun","New Orleans Saints","Denver Broncos",31,3,-28,FALSE,292,112,-180,1,3,2,0,FALSE,16:05:00
+2020,12,2020-11-29,"Sun","San Francisco 49ers","Los Angeles Rams",23,20,-3,FALSE,345,308,-37,3,4,1,0,FALSE,16:05:00
+2020,12,2020-11-29,"Sun","Kansas City Chiefs","Tampa Bay Buccaneers",27,24,-3,FALSE,543,417,-126,1,2,1,15950,TRUE,16:25:00
+2020,12,2020-11-29,"Sun","Chicago Bears","Green Bay Packers",25,41,16,TRUE,350,393,43,3,0,-3,0,FALSE,20:20:00
+2020,12,2020-11-30,"Mon","Seattle Seahawks","Philadelphia Eagles",23,17,-6,FALSE,301,250,-51,0,1,1,0,FALSE,20:15:00
+2020,12,2020-12-02,"Wed","Baltimore Ravens","Pittsburgh Steelers",14,19,5,TRUE,219,334,115,2,2,0,0,FALSE,15:40:00
+2020,13,2020-12-06,"Sun","New Orleans Saints","Atlanta Falcons",21,16,-5,FALSE,424,332,-92,1,1,0,8713,TRUE,13:00:00
+2020,13,2020-12-06,"Sun","Detroit Lions","Chicago Bears",34,30,-4,FALSE,460,389,-71,1,1,0,0,FALSE,13:00:00
+2020,13,2020-12-06,"Sun","Cincinnati Bengals","Miami Dolphins",7,19,12,TRUE,196,406,210,2,1,-1,12577,TRUE,13:00:00
+2020,13,2020-12-06,"Sun","Cleveland Browns","Tennessee Titans",41,35,-6,FALSE,458,431,-27,1,3,2,13986,TRUE,13:00:00
+2020,13,2020-12-06,"Sun","Indianapolis Colts","Houston Texans",26,20,-6,FALSE,371,398,27,0,2,2,12316,TRUE,13:00:00
+2020,13,2020-12-06,"Sun","Jacksonville Jaguars","Minnesota Vikings",24,27,3,TRUE,390,420,30,4,2,-2,0,FALSE,13:00:00
+2020,13,2020-12-06,"Sun","Las Vegas Raiders","New York Jets",31,28,-3,FALSE,440,376,-64,2,3,1,0,FALSE,13:00:00
+2020,13,2020-12-06,"Sun","Los Angeles Rams","Arizona Cardinals",38,28,-10,FALSE,463,232,-231,1,2,1,0,FALSE,16:05:00
+2020,13,2020-12-06,"Sun","New York Giants","Seattle Seahawks",17,12,-5,FALSE,290,327,37,1,2,1,0,FALSE,16:05:00
+2020,13,2020-12-06,"Sun","Philadelphia Eagles","Green Bay Packers",16,30,14,TRUE,278,437,159,1,0,-1,0,FALSE,16:25:00
+2020,13,2020-12-06,"Sun","New England Patriots","Los Angeles Chargers",45,0,-45,FALSE,291,258,-33,0,2,2,0,FALSE,16:25:00
+2020,13,2020-12-06,"Sun","Denver Broncos","Kansas City Chiefs",16,22,6,TRUE,330,447,117,2,0,-2,12578,TRUE,20:20:00
+2020,13,2020-12-07,"Mon","Washington Football Team","Pittsburgh Steelers",23,17,-6,FALSE,318,326,8,0,1,1,0,FALSE,17:00:00
+2020,13,2020-12-07,"Mon","Buffalo Bills","San Francisco 49ers",34,24,-10,FALSE,449,402,-47,1,2,1,0,FALSE,20:15:00
+2020,13,2020-12-08,"Tue","Dallas Cowboys","Baltimore Ravens",17,34,17,TRUE,388,401,13,1,1,0,0,FALSE,20:05:00
+2020,14,2020-12-10,"Thu","New England Patriots","Los Angeles Rams",3,24,21,TRUE,220,318,98,1,1,0,0,FALSE,20:20:00
+2020,14,2020-12-13,"Sun","Denver Broncos","Carolina Panthers",32,27,-5,FALSE,365,370,5,1,0,-1,5768,TRUE,13:00:00
+2020,14,2020-12-13,"Sun","Houston Texans","Chicago Bears",7,36,29,TRUE,263,410,147,2,0,-2,0,FALSE,13:00:00
+2020,14,2020-12-13,"Sun","Dallas Cowboys","Cincinnati Bengals",30,7,-23,FALSE,272,309,37,0,3,3,10322,TRUE,13:00:00
+2020,14,2020-12-13,"Sun","Arizona Cardinals","New York Giants",26,7,-19,FALSE,390,159,-231,0,3,3,0,FALSE,13:00:00
+2020,14,2020-12-13,"Sun","Tennessee Titans","Jacksonville Jaguars",31,10,-21,FALSE,454,354,-100,1,1,0,15896,TRUE,13:00:00
+2020,14,2020-12-13,"Sun","Kansas City Chiefs","Miami Dolphins",33,27,-6,FALSE,448,367,-81,4,1,-3,13057,TRUE,13:00:00
+2020,14,2020-12-13,"Sun","Minnesota Vikings","Tampa Bay Buccaneers",14,26,12,TRUE,335,303,-32,1,0,-1,16031,TRUE,13:00:00
+2020,14,2020-12-13,"Sun","Indianapolis Colts","Las Vegas Raiders",44,27,-17,FALSE,456,424,-32,0,3,3,0,FALSE,16:05:00
+2020,14,2020-12-13,"Sun","New York Jets","Seattle Seahawks",3,40,37,TRUE,185,410,225,1,1,0,0,FALSE,16:05:00
+2020,14,2020-12-13,"Sun","Atlanta Falcons","Los Angeles Chargers",17,20,3,TRUE,319,345,26,3,1,-2,0,FALSE,16:25:00
+2020,14,2020-12-13,"Sun","Green Bay Packers","Detroit Lions",31,24,-7,FALSE,410,293,-117,0,0,0,0,FALSE,16:25:00
+2020,14,2020-12-13,"Sun","New Orleans Saints","Philadelphia Eagles",21,24,3,TRUE,358,413,55,2,1,-1,0,FALSE,16:25:00
+2020,14,2020-12-13,"Sun","Washington Football Team","San Francisco 49ers",23,15,-8,FALSE,193,344,151,1,3,2,0,FALSE,16:25:00
+2020,14,2020-12-13,"Sun","Pittsburgh Steelers","Buffalo Bills",15,26,11,TRUE,224,334,110,2,2,0,0,FALSE,20:20:00
+2020,14,2020-12-14,"Mon","Baltimore Ravens","Cleveland Browns",47,42,-5,FALSE,385,493,108,0,1,1,11974,TRUE,20:15:00
+2020,15,2020-12-17,"Thu","Los Angeles Chargers","Las Vegas Raiders",30,27,-3,FALSE,402,449,47,0,1,1,0,FALSE,20:20:00
+2020,15,2020-12-19,"Sat","Buffalo Bills","Denver Broncos",48,19,-29,FALSE,534,255,-279,1,1,0,0,FALSE,16:30:00
+2020,15,2020-12-19,"Sat","Carolina Panthers","Green Bay Packers",16,24,8,TRUE,364,291,-73,1,0,-1,0,FALSE,20:15:00
+2020,15,2020-12-20,"Sun","Tampa Bay Buccaneers","Atlanta Falcons",31,27,-4,FALSE,416,369,-47,0,0,0,10703,TRUE,13:00:00
+2020,15,2020-12-20,"Sun","Chicago Bears","Minnesota Vikings",33,27,-6,FALSE,397,407,10,1,1,0,0,FALSE,13:00:00
+2020,15,2020-12-20,"Sun","Houston Texans","Indianapolis Colts",20,27,7,TRUE,425,350,-75,2,0,-2,9992,TRUE,13:00:00
+2020,15,2020-12-20,"Sun","San Francisco 49ers","Dallas Cowboys",33,41,8,TRUE,458,291,-167,4,0,-4,30092,TRUE,13:00:00
+2020,15,2020-12-20,"Sun","Detroit Lions","Tennessee Titans",25,46,21,TRUE,430,463,33,3,0,-3,13797,TRUE,13:00:00
+2020,15,2020-12-20,"Sun","Jacksonville Jaguars","Baltimore Ravens",14,40,26,TRUE,267,409,142,1,1,0,0,FALSE,13:00:00
+2020,15,2020-12-20,"Sun","New England Patriots","Miami Dolphins",12,22,10,TRUE,303,383,80,1,1,0,13354,TRUE,13:00:00
+2020,15,2020-12-20,"Sun","Seattle Seahawks","Washington Football Team",20,15,-5,FALSE,302,353,51,1,2,1,0,FALSE,13:00:00
+2020,15,2020-12-20,"Sun","Philadelphia Eagles","Arizona Cardinals",26,33,7,TRUE,422,526,104,0,3,3,0,FALSE,16:05:00
+2020,15,2020-12-20,"Sun","New York Jets","Los Angeles Rams",23,20,-3,FALSE,289,303,14,0,1,1,0,FALSE,16:05:00
+2020,15,2020-12-20,"Sun","Kansas City Chiefs","New Orleans Saints",32,29,-3,FALSE,411,285,-126,1,1,0,3000,TRUE,16:25:00
+2020,15,2020-12-20,"Sun","Cleveland Browns","New York Giants",20,6,-14,FALSE,392,288,-104,0,0,0,0,FALSE,20:20:00
+2020,15,2020-12-21,"Mon","Pittsburgh Steelers","Cincinnati Bengals",17,27,10,TRUE,244,230,-14,3,0,-3,10249,TRUE,20:15:00
+2020,16,2020-12-25,"Fri","Minnesota Vikings","New Orleans Saints",33,52,19,TRUE,364,583,219,0,2,2,3000,TRUE,16:30:00
+2020,16,2020-12-26,"Sat","Tampa Bay Buccaneers","Detroit Lions",47,7,-40,FALSE,588,186,-402,0,2,2,0,FALSE,13:00:00
+2020,16,2020-12-26,"Sat","San Francisco 49ers","Arizona Cardinals",20,12,-8,FALSE,398,350,-48,1,2,1,0,FALSE,16:30:00
+2020,16,2020-12-26,"Sat","Miami Dolphins","Las Vegas Raiders",26,25,-1,FALSE,383,418,35,0,1,1,0,FALSE,20:15:00
+2020,16,2020-12-27,"Sun","Atlanta Falcons","Kansas City Chiefs",14,17,3,TRUE,367,395,28,1,2,1,13470,TRUE,13:00:00
+2020,16,2020-12-27,"Sun","Chicago Bears","Jacksonville Jaguars",41,17,-24,FALSE,391,279,-112,1,2,1,17445,TRUE,13:00:00
+2020,16,2020-12-27,"Sun","Cincinnati Bengals","Houston Texans",37,31,-6,FALSE,540,488,-52,0,1,1,12344,TRUE,13:00:00
+2020,16,2020-12-27,"Sun","Cleveland Browns","New York Jets",16,23,7,TRUE,299,333,34,2,0,-2,0,FALSE,13:00:00
+2020,16,2020-12-27,"Sun","Indianapolis Colts","Pittsburgh Steelers",24,28,4,TRUE,365,354,-11,2,0,-2,0,FALSE,13:00:00
+2020,16,2020-12-27,"Sun","New York Giants","Baltimore Ravens",13,27,14,TRUE,269,432,163,0,1,1,0,FALSE,13:00:00
+2020,16,2020-12-27,"Sun","Carolina Panthers","Washington Football Team",20,13,-7,FALSE,280,386,106,2,4,2,0,FALSE,16:05:00
+2020,16,2020-12-27,"Sun","Denver Broncos","Los Angeles Chargers",16,19,3,TRUE,396,316,-80,2,0,-2,0,FALSE,16:05:00
+2020,16,2020-12-27,"Sun","Philadelphia Eagles","Dallas Cowboys",17,37,20,TRUE,477,513,36,3,1,-2,30131,TRUE,16:25:00
+2020,16,2020-12-27,"Sun","Los Angeles Rams","Seattle Seahawks",9,20,11,TRUE,334,292,-42,1,0,-1,0,FALSE,16:25:00
+2020,16,2020-12-27,"Sun","Tennessee Titans","Green Bay Packers",14,40,26,TRUE,260,448,188,2,1,-1,0,FALSE,20:20:00
+2020,16,2020-12-28,"Mon","Buffalo Bills","New England Patriots",38,9,-29,FALSE,474,201,-273,0,0,0,0,FALSE,20:15:00
+2020,17,2021-01-03,"Sun","Atlanta Falcons","Tampa Bay Buccaneers",27,44,17,TRUE,385,485,100,2,1,-1,16009,TRUE,13:00:00
+2020,17,2021-01-03,"Sun","Miami Dolphins","Buffalo Bills",26,56,30,TRUE,454,455,1,4,2,-2,0,FALSE,13:00:00
+2020,17,2021-01-03,"Sun","Baltimore Ravens","Cincinnati Bengals",38,3,-35,FALSE,525,195,-330,1,2,1,10499,TRUE,13:00:00
+2020,17,2021-01-03,"Sun","Pittsburgh Steelers","Cleveland Browns",22,24,2,TRUE,394,358,-36,1,0,-1,11989,TRUE,13:00:00
+2020,17,2021-01-03,"Sun","Dallas Cowboys","New York Giants",19,23,4,TRUE,307,336,29,1,2,1,0,FALSE,13:00:00
+2020,17,2021-01-03,"Sun","Minnesota Vikings","Detroit Lions",37,35,-2,FALSE,508,417,-91,0,2,2,0,FALSE,13:00:00
+2020,17,2021-01-03,"Sun","New York Jets","New England Patriots",14,28,14,TRUE,350,404,54,2,0,-2,0,FALSE,13:00:00
+2020,17,2021-01-03,"Sun","New Orleans Saints","Carolina Panthers",33,7,-26,FALSE,347,320,-27,0,5,5,1500,TRUE,16:25:00
+2020,17,2021-01-03,"Sun","Green Bay Packers","Chicago Bears",35,16,-19,FALSE,316,356,40,1,2,1,0,FALSE,16:25:00
+2020,17,2021-01-03,"Sun","Jacksonville Jaguars","Indianapolis Colts",14,28,14,TRUE,283,437,154,1,1,0,9976,TRUE,16:25:00
+2020,17,2021-01-03,"Sun","Arizona Cardinals","Los Angeles Rams",7,18,11,TRUE,214,333,119,1,2,1,0,FALSE,16:25:00
+2020,17,2021-01-03,"Sun","Las Vegas Raiders","Denver Broncos",32,31,-1,FALSE,465,446,-19,4,0,-4,0,FALSE,16:25:00
+2020,17,2021-01-03,"Sun","Tennessee Titans","Houston Texans",41,38,-3,FALSE,492,457,-35,1,1,0,12504,TRUE,16:25:00
+2020,17,2021-01-03,"Sun","Los Angeles Chargers","Kansas City Chiefs",38,21,-17,FALSE,416,268,-148,0,1,1,13240,TRUE,16:25:00
+2020,17,2021-01-03,"Sun","Seattle Seahawks","San Francisco 49ers",26,23,-3,FALSE,280,328,48,0,1,1,0,FALSE,16:25:00
+2020,17,2021-01-03,"Sun","Washington Football Team","Philadelphia Eagles",20,14,-6,FALSE,248,216,-32,2,3,1,0,FALSE,20:20:00
